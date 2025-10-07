@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_strreplace.dir/test_strreplace.c.o -o test_strreplace  ../src/libcmocka-static.a 

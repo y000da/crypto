@@ -1,0 +1,17 @@
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HRbHuO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bdac8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bdac8.dir/build.make CMakeFiles/cmTC_bdac8.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HRbHuO»
+Building C object CMakeFiles/cmTC_bdac8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_bdac8.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HRbHuO/CheckIncludeFile.c
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HRbHuO/CheckIncludeFile.c:1:10: fatal error: io.h: Нет такого файла или каталога
+    1 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_bdac8.dir/build.make:78: CMakeFiles/cmTC_bdac8.dir/CheckIncludeFile.c.o] Ошибка 1
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HRbHuO»
+gmake: *** [Makefile:127: cmTC_bdac8/fast] Ошибка 2
+
+
+

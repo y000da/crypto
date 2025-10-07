@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_skip.dir/test_skip.c.o -o test_skip  ../src/libcmocka-static.a 

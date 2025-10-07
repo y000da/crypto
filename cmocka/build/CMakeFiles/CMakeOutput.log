@@ -1,0 +1,1351 @@
+The system is: Linux - 6.1.0-31-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Ep9DjR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61b9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61b9a.dir/build.make CMakeFiles/cmTC_61b9a.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Ep9DjR'
+Building C object CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61b9a.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_61b9a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccjrMyGA.s
+GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: df5cb71f7b1353aac39c2b59ae45fa4a
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61b9a.dir/'
+ as -v --64 -o CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o /tmp/ccjrMyGA.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_61b9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61b9a.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o -o cmTC_61b9a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61b9a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61b9a.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Z5YIY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_61b9a /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61b9a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61b9a.'
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Ep9DjR'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Ep9DjR]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61b9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61b9a.dir/build.make CMakeFiles/cmTC_61b9a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Ep9DjR']
+  ignore line: [Building C object CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61b9a.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_61b9a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -fasynchronous-unwind-tables -o /tmp/ccjrMyGA.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: df5cb71f7b1353aac39c2b59ae45fa4a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61b9a.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o /tmp/ccjrMyGA.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_61b9a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61b9a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o -o cmTC_61b9a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61b9a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_61b9a.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3Z5YIY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_61b9a /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3Z5YIY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_61b9a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_61b9a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test REQUIRED_FLAGS_WERROR succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pKiz2s
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8d19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8d19.dir/build.make CMakeFiles/cmTC_b8d19.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pKiz2s'
+Building C object CMakeFiles/cmTC_b8d19.dir/src.c.o
+/usr/bin/cc -DREQUIRED_FLAGS_WERROR  -fPIE   -Werror -o CMakeFiles/cmTC_b8d19.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pKiz2s/src.c
+Linking C executable cmTC_b8d19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8d19.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b8d19.dir/src.c.o -o cmTC_b8d19 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pKiz2s'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_STD_GNU99_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HQo2MQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d1a06/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d1a06.dir/build.make CMakeFiles/cmTC_d1a06.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HQo2MQ'
+Building C object CMakeFiles/cmTC_d1a06.dir/src.c.o
+/usr/bin/cc -DWITH_STD_GNU99_FLAG  -Werror -fPIE   -std=gnu99 -o CMakeFiles/cmTC_d1a06.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HQo2MQ/src.c
+Linking C executable cmTC_d1a06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1a06.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_d1a06.dir/src.c.o -o cmTC_d1a06 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-HQo2MQ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WPEDANTIC_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7KgO1Z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f29ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f29ef.dir/build.make CMakeFiles/cmTC_f29ef.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7KgO1Z'
+Building C object CMakeFiles/cmTC_f29ef.dir/src.c.o
+/usr/bin/cc -DWITH_WPEDANTIC_FLAG  -Werror -fPIE   -Wpedantic -o CMakeFiles/cmTC_f29ef.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7KgO1Z/src.c
+Linking C executable cmTC_f29ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f29ef.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_f29ef.dir/src.c.o -o cmTC_f29ef 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7KgO1Z'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WALL_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tHbeD9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa6bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa6bc.dir/build.make CMakeFiles/cmTC_aa6bc.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tHbeD9'
+Building C object CMakeFiles/cmTC_aa6bc.dir/src.c.o
+/usr/bin/cc -DWITH_WALL_FLAG  -Werror -fPIE   -Wall -o CMakeFiles/cmTC_aa6bc.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tHbeD9/src.c
+Linking C executable cmTC_aa6bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa6bc.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_aa6bc.dir/src.c.o -o cmTC_aa6bc 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tHbeD9'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WSHADOW_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-6BPosR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7b13/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7b13.dir/build.make CMakeFiles/cmTC_b7b13.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-6BPosR'
+Building C object CMakeFiles/cmTC_b7b13.dir/src.c.o
+/usr/bin/cc -DWITH_WSHADOW_FLAG  -Werror -fPIE   -Wshadow -o CMakeFiles/cmTC_b7b13.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-6BPosR/src.c
+Linking C executable cmTC_b7b13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b13.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_b7b13.dir/src.c.o -o cmTC_b7b13 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-6BPosR'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WMISSING_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-DLV8xP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c44e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c44e.dir/build.make CMakeFiles/cmTC_3c44e.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-DLV8xP'
+Building C object CMakeFiles/cmTC_3c44e.dir/src.c.o
+/usr/bin/cc -DWITH_WMISSING_PROTOTYPES_FLAG  -Werror -fPIE   -Wmissing-prototypes -o CMakeFiles/cmTC_3c44e.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-DLV8xP/src.c
+Linking C executable cmTC_3c44e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c44e.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_3c44e.dir/src.c.o -o cmTC_3c44e 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-DLV8xP'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WCAST_ALIGN_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ToWAhV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_76578/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_76578.dir/build.make CMakeFiles/cmTC_76578.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ToWAhV'
+Building C object CMakeFiles/cmTC_76578.dir/src.c.o
+/usr/bin/cc -DWITH_WCAST_ALIGN_FLAG  -Werror -fPIE   -Wcast-align -o CMakeFiles/cmTC_76578.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ToWAhV/src.c
+Linking C executable cmTC_76578
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76578.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_76578.dir/src.c.o -o cmTC_76578 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ToWAhV'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_ADDRESS_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-L6Svpl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d03e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1d03e.dir/build.make CMakeFiles/cmTC_1d03e.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-L6Svpl'
+Building C object CMakeFiles/cmTC_1d03e.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_ADDRESS_FLAG  -Werror -fPIE   -Werror=address -o CMakeFiles/cmTC_1d03e.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-L6Svpl/src.c
+Linking C executable cmTC_1d03e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d03e.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_1d03e.dir/src.c.o -o cmTC_1d03e 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-L6Svpl'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WSTRICT_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SWPmki
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae628/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae628.dir/build.make CMakeFiles/cmTC_ae628.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SWPmki'
+Building C object CMakeFiles/cmTC_ae628.dir/src.c.o
+/usr/bin/cc -DWITH_WSTRICT_PROTOTYPES_FLAG  -Werror -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_ae628.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SWPmki/src.c
+Linking C executable cmTC_ae628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae628.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_ae628.dir/src.c.o -o cmTC_ae628 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SWPmki'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_STRICT_PROTOTYPES_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-FMsRA7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3581b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3581b.dir/build.make CMakeFiles/cmTC_3581b.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-FMsRA7'
+Building C object CMakeFiles/cmTC_3581b.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_STRICT_PROTOTYPES_FLAG  -Werror -fPIE   -Werror=strict-prototypes -o CMakeFiles/cmTC_3581b.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-FMsRA7/src.c
+Linking C executable cmTC_3581b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3581b.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_3581b.dir/src.c.o -o cmTC_3581b 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-FMsRA7'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WWRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-cWsRkG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_90900/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_90900.dir/build.make CMakeFiles/cmTC_90900.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-cWsRkG'
+Building C object CMakeFiles/cmTC_90900.dir/src.c.o
+/usr/bin/cc -DWITH_WWRITE_STRINGS_FLAG  -Werror -fPIE   -Wwrite-strings -o CMakeFiles/cmTC_90900.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-cWsRkG/src.c
+Linking C executable cmTC_90900
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90900.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_90900.dir/src.c.o -o cmTC_90900 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-cWsRkG'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_WRITE_STRINGS_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xB2pRZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_986f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_986f0.dir/build.make CMakeFiles/cmTC_986f0.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xB2pRZ'
+Building C object CMakeFiles/cmTC_986f0.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_WRITE_STRINGS_FLAG  -Werror -fPIE   -Werror=write-strings -o CMakeFiles/cmTC_986f0.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xB2pRZ/src.c
+Linking C executable cmTC_986f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_986f0.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_986f0.dir/src.c.o -o cmTC_986f0 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xB2pRZ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7hG4dG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b13b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b13b.dir/build.make CMakeFiles/cmTC_7b13b.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7hG4dG'
+Building C object CMakeFiles/cmTC_7b13b.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_IMPLICIT_FUNCTION_DECLARATION_FLAG  -Werror -fPIE   -Werror-implicit-function-declaration -o CMakeFiles/cmTC_7b13b.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7hG4dG/src.c
+Linking C executable cmTC_7b13b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b13b.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_7b13b.dir/src.c.o -o cmTC_7b13b 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-7hG4dG'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WPOINTER_ARITH_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SUU2sx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_426c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_426c8.dir/build.make CMakeFiles/cmTC_426c8.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SUU2sx'
+Building C object CMakeFiles/cmTC_426c8.dir/src.c.o
+/usr/bin/cc -DWITH_WPOINTER_ARITH_FLAG  -Werror -fPIE   -Wpointer-arith -o CMakeFiles/cmTC_426c8.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SUU2sx/src.c
+Linking C executable cmTC_426c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_426c8.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_426c8.dir/src.c.o -o cmTC_426c8 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-SUU2sx'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_POINTER_ARITH_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-f6r6Qw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72237/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72237.dir/build.make CMakeFiles/cmTC_72237.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-f6r6Qw'
+Building C object CMakeFiles/cmTC_72237.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_POINTER_ARITH_FLAG  -Werror -fPIE   -Werror=pointer-arith -o CMakeFiles/cmTC_72237.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-f6r6Qw/src.c
+Linking C executable cmTC_72237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72237.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_72237.dir/src.c.o -o cmTC_72237 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-f6r6Qw'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WRETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VF1B3X
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb423/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb423.dir/build.make CMakeFiles/cmTC_eb423.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VF1B3X'
+Building C object CMakeFiles/cmTC_eb423.dir/src.c.o
+/usr/bin/cc -DWITH_WRETURN_TYPE_FLAG  -Werror -fPIE   -Wreturn-type -o CMakeFiles/cmTC_eb423.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VF1B3X/src.c
+Linking C executable cmTC_eb423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb423.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_eb423.dir/src.c.o -o cmTC_eb423 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VF1B3X'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_RETURN_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-T9CwgF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13c4f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13c4f.dir/build.make CMakeFiles/cmTC_13c4f.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-T9CwgF'
+Building C object CMakeFiles/cmTC_13c4f.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_RETURN_TYPE_FLAG  -Werror -fPIE   -Werror=return-type -o CMakeFiles/cmTC_13c4f.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-T9CwgF/src.c
+Linking C executable cmTC_13c4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13c4f.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_13c4f.dir/src.c.o -o cmTC_13c4f 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-T9CwgF'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WUNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2zi5T4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_51b8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51b8b.dir/build.make CMakeFiles/cmTC_51b8b.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2zi5T4'
+Building C object CMakeFiles/cmTC_51b8b.dir/src.c.o
+/usr/bin/cc -DWITH_WUNINITIALIZED_FLAG  -Werror -fPIE   -Wuninitialized -o CMakeFiles/cmTC_51b8b.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2zi5T4/src.c
+Linking C executable cmTC_51b8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51b8b.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_51b8b.dir/src.c.o -o cmTC_51b8b 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2zi5T4'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_UNINITIALIZED_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-F0hncQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74475/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74475.dir/build.make CMakeFiles/cmTC_74475.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-F0hncQ'
+Building C object CMakeFiles/cmTC_74475.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_UNINITIALIZED_FLAG  -Werror -fPIE   -Werror=uninitialized -o CMakeFiles/cmTC_74475.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-F0hncQ/src.c
+Linking C executable cmTC_74475
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74475.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_74475.dir/src.c.o -o cmTC_74475 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-F0hncQ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WIMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-j1ABmd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d78db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d78db.dir/build.make CMakeFiles/cmTC_d78db.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-j1ABmd'
+Building C object CMakeFiles/cmTC_d78db.dir/src.c.o
+/usr/bin/cc -DWITH_WIMPLICIT_FALLTHROUGH_FLAG  -Werror -fPIE   -Wimplicit-fallthrough -o CMakeFiles/cmTC_d78db.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-j1ABmd/src.c
+Linking C executable cmTC_d78db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d78db.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_d78db.dir/src.c.o -o cmTC_d78db 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-j1ABmd'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_STRICT_OVERFLOW_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-RnNSlw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9f0bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f0bf.dir/build.make CMakeFiles/cmTC_9f0bf.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-RnNSlw'
+Building C object CMakeFiles/cmTC_9f0bf.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_STRICT_OVERFLOW_FLAG  -Werror -fPIE   -Werror=strict-overflow -o CMakeFiles/cmTC_9f0bf.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-RnNSlw/src.c
+Linking C executable cmTC_9f0bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f0bf.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_9f0bf.dir/src.c.o -o cmTC_9f0bf 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-RnNSlw'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WSTRICT_OVERFLOW_2_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-x6tms4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d01e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d01e.dir/build.make CMakeFiles/cmTC_7d01e.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-x6tms4'
+Building C object CMakeFiles/cmTC_7d01e.dir/src.c.o
+/usr/bin/cc -DWITH_WSTRICT_OVERFLOW_2_FLAG  -Werror -fPIE   -Wstrict-overflow=2 -o CMakeFiles/cmTC_7d01e.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-x6tms4/src.c
+Linking C executable cmTC_7d01e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d01e.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_7d01e.dir/src.c.o -o cmTC_7d01e 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-x6tms4'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WNO_FORMAT_ZERO_LENGTH_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-sXBDBV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03e4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03e4e.dir/build.make CMakeFiles/cmTC_03e4e.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-sXBDBV'
+Building C object CMakeFiles/cmTC_03e4e.dir/src.c.o
+/usr/bin/cc -DWITH_WNO_FORMAT_ZERO_LENGTH_FLAG  -Werror -fPIE   -Wno-format-zero-length -o CMakeFiles/cmTC_03e4e.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-sXBDBV/src.c
+Linking C executable cmTC_03e4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03e4e.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_03e4e.dir/src.c.o -o cmTC_03e4e 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-sXBDBV'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WMISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-rz5tVN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb582/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb582.dir/build.make CMakeFiles/cmTC_bb582.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-rz5tVN'
+Building C object CMakeFiles/cmTC_bb582.dir/src.c.o
+/usr/bin/cc -DWITH_WMISSING_FIELD_INITIALIZERS_FLAG  -Werror -fPIE   -Wmissing-field-initializers -o CMakeFiles/cmTC_bb582.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-rz5tVN/src.c
+Linking C executable cmTC_bb582
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb582.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_bb582.dir/src.c.o -o cmTC_bb582 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-rz5tVN'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test REQUIRED_FLAGS_WFORMAT succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jFGqbD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d08d0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d08d0.dir/build.make CMakeFiles/cmTC_d08d0.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jFGqbD'
+Building C object CMakeFiles/cmTC_d08d0.dir/src.c.o
+/usr/bin/cc -DREQUIRED_FLAGS_WFORMAT  -Werror -fPIE   -Wformat -o CMakeFiles/cmTC_d08d0.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jFGqbD/src.c
+Linking C executable cmTC_d08d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d08d0.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror CMakeFiles/cmTC_d08d0.dir/src.c.o -o cmTC_d08d0 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jFGqbD'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WFORMAT_SECURITY_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CKWSLr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8cca1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8cca1.dir/build.make CMakeFiles/cmTC_8cca1.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CKWSLr'
+Building C object CMakeFiles/cmTC_8cca1.dir/src.c.o
+/usr/bin/cc -DWITH_WFORMAT_SECURITY_FLAG  -Werror -Wformat -fPIE   -Wformat-security -o CMakeFiles/cmTC_8cca1.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CKWSLr/src.c
+Linking C executable cmTC_8cca1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cca1.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror -Wformat CMakeFiles/cmTC_8cca1.dir/src.c.o -o cmTC_8cca1 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CKWSLr'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_WERROR_FORMAT_SECURITY_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2DQUta
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ddebf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddebf.dir/build.make CMakeFiles/cmTC_ddebf.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2DQUta'
+Building C object CMakeFiles/cmTC_ddebf.dir/src.c.o
+/usr/bin/cc -DWITH_WERROR_FORMAT_SECURITY_FLAG  -Werror -Wformat -fPIE   -Werror=format-security -o CMakeFiles/cmTC_ddebf.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2DQUta/src.c
+Linking C executable cmTC_ddebf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddebf.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror -Wformat CMakeFiles/cmTC_ddebf.dir/src.c.o -o cmTC_ddebf 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2DQUta'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_FNO_COMMON_FLAG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pdJcu7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e6d5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e6d5.dir/build.make CMakeFiles/cmTC_2e6d5.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pdJcu7'
+Building C object CMakeFiles/cmTC_2e6d5.dir/src.c.o
+/usr/bin/cc -DWITH_FNO_COMMON_FLAG  -Werror -Wformat -fPIE   -fno-common -o CMakeFiles/cmTC_2e6d5.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pdJcu7/src.c
+Linking C executable cmTC_2e6d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e6d5.dir/link.txt --verbose=1
+/usr/bin/cc  -Werror -Wformat CMakeFiles/cmTC_2e6d5.dir/src.c.o -o cmTC_2e6d5 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pdJcu7'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR_STRONG succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-TVr9sv
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69cd3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69cd3.dir/build.make CMakeFiles/cmTC_69cd3.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-TVr9sv'
+Building C object CMakeFiles/cmTC_69cd3.dir/src.c.o
+/usr/bin/cc -DWITH_STACK_PROTECTOR_STRONG  -fstack-protector-strong -fPIE -o CMakeFiles/cmTC_69cd3.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-TVr9sv/src.c
+Linking C executable cmTC_69cd3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69cd3.dir/link.txt --verbose=1
+/usr/bin/cc  -fstack-protector-strong CMakeFiles/cmTC_69cd3.dir/src.c.o -o cmTC_69cd3 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-TVr9sv'
+
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+
+Performing C SOURCE FILE Test WITH_STACK_CLASH_PROTECTION succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-O9CvxQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e896b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e896b.dir/build.make CMakeFiles/cmTC_e896b.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-O9CvxQ'
+Building C object CMakeFiles/cmTC_e896b.dir/src.c.o
+/usr/bin/cc -DWITH_STACK_CLASH_PROTECTION  -fstack-clash-protection -fPIE -o CMakeFiles/cmTC_e896b.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-O9CvxQ/src.c
+Linking C executable cmTC_e896b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e896b.dir/link.txt --verbose=1
+/usr/bin/cc  -fstack-clash-protection CMakeFiles/cmTC_e896b.dir/src.c.o -o cmTC_e896b 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-O9CvxQ'
+
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+
+Performing C SOURCE FILE Test WITH_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0t9mKq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35608/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35608.dir/build.make CMakeFiles/cmTC_35608.dir/build
+gmake[1]: Entering directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0t9mKq'
+Building C object CMakeFiles/cmTC_35608.dir/src.c.o
+/usr/bin/cc -DWITH_VISIBILITY_HIDDEN  -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_35608.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0t9mKq/src.c
+Linking C executable cmTC_35608
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35608.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_35608.dir/src.c.o -o cmTC_35608 
+gmake[1]: Leaving directory '/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0t9mKq'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-fJtZwH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6f09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6f09.dir/build.make CMakeFiles/cmTC_f6f09.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-fJtZwH»
+Building C object CMakeFiles/cmTC_f6f09.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f6f09.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-fJtZwH/CheckIncludeFile.c
+Linking C executable cmTC_f6f09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6f09.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f6f09.dir/CheckIncludeFile.c.o -o cmTC_f6f09 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-fJtZwH»
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GnpZA0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5f1e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5f1e.dir/build.make CMakeFiles/cmTC_d5f1e.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GnpZA0»
+Building C object CMakeFiles/cmTC_d5f1e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_d5f1e.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GnpZA0/CheckIncludeFile.c
+Linking C executable cmTC_d5f1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5f1e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d5f1e.dir/CheckIncludeFile.c.o -o cmTC_d5f1e 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GnpZA0»
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kIamO1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_221f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_221f3.dir/build.make CMakeFiles/cmTC_221f3.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kIamO1»
+Building C object CMakeFiles/cmTC_221f3.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_221f3.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kIamO1/CheckIncludeFile.c
+Linking C executable cmTC_221f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_221f3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_221f3.dir/CheckIncludeFile.c.o -o cmTC_221f3 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kIamO1»
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-LphQzY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5e6e0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e6e0.dir/build.make CMakeFiles/cmTC_5e6e0.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-LphQzY»
+Building C object CMakeFiles/cmTC_5e6e0.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_5e6e0.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-LphQzY/CheckIncludeFile.c
+Linking C executable cmTC_5e6e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e6e0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5e6e0.dir/CheckIncludeFile.c.o -o cmTC_5e6e0 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-LphQzY»
+
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pQNdky
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_123d6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_123d6.dir/build.make CMakeFiles/cmTC_123d6.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pQNdky»
+Building C object CMakeFiles/cmTC_123d6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_123d6.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pQNdky/CheckIncludeFile.c
+Linking C executable cmTC_123d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_123d6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_123d6.dir/CheckIncludeFile.c.o -o cmTC_123d6 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pQNdky»
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-QlStK1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86721/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86721.dir/build.make CMakeFiles/cmTC_86721.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-QlStK1»
+Building C object CMakeFiles/cmTC_86721.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_86721.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-QlStK1/CheckIncludeFile.c
+Linking C executable cmTC_86721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86721.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_86721.dir/CheckIncludeFile.c.o -o cmTC_86721 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-QlStK1»
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Pun4p6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_936e7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_936e7.dir/build.make CMakeFiles/cmTC_936e7.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Pun4p6»
+Building C object CMakeFiles/cmTC_936e7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_936e7.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Pun4p6/CheckIncludeFile.c
+Linking C executable cmTC_936e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_936e7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_936e7.dir/CheckIncludeFile.c.o -o cmTC_936e7 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Pun4p6»
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ahdbIp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0774d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0774d.dir/build.make CMakeFiles/cmTC_0774d.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ahdbIp»
+Building C object CMakeFiles/cmTC_0774d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_0774d.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ahdbIp/CheckIncludeFile.c
+Linking C executable cmTC_0774d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0774d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0774d.dir/CheckIncludeFile.c.o -o cmTC_0774d 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ahdbIp»
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0CRRxg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8881/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8881.dir/build.make CMakeFiles/cmTC_a8881.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0CRRxg»
+Building C object CMakeFiles/cmTC_a8881.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a8881.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0CRRxg/CheckIncludeFile.c
+Linking C executable cmTC_a8881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8881.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a8881.dir/CheckIncludeFile.c.o -o cmTC_a8881 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-0CRRxg»
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GtD94D
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_873dc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_873dc.dir/build.make CMakeFiles/cmTC_873dc.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GtD94D»
+Building C object CMakeFiles/cmTC_873dc.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_873dc.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GtD94D/CheckIncludeFile.c
+Linking C executable cmTC_873dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_873dc.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_873dc.dir/CheckIncludeFile.c.o -o cmTC_873dc 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GtD94D»
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xicHQz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0d8cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0d8cf.dir/build.make CMakeFiles/cmTC_0d8cf.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xicHQz»
+Building C object CMakeFiles/cmTC_0d8cf.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_0d8cf.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xicHQz/CheckIncludeFile.c
+Linking C executable cmTC_0d8cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d8cf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0d8cf.dir/CheckIncludeFile.c.o -o cmTC_0d8cf 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-xicHQz»
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1juyG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e5f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e5f2.dir/build.make CMakeFiles/cmTC_9e5f2.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1juyG»
+Building C object CMakeFiles/cmTC_9e5f2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_9e5f2.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1juyG/CheckIncludeFile.c
+Linking C executable cmTC_9e5f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e5f2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9e5f2.dir/CheckIncludeFile.c.o -o cmTC_9e5f2 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1juyG»
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1IoHg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30ef6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30ef6.dir/build.make CMakeFiles/cmTC_30ef6.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1IoHg»
+Building C object CMakeFiles/cmTC_30ef6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_30ef6.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1IoHg/CheckIncludeFile.c
+Linking C executable cmTC_30ef6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30ef6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_30ef6.dir/CheckIncludeFile.c.o -o cmTC_30ef6 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-P1IoHg»
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GDv1x0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0f10/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0f10.dir/build.make CMakeFiles/cmTC_a0f10.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GDv1x0»
+Building C object CMakeFiles/cmTC_a0f10.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_a0f10.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GDv1x0/CheckIncludeFile.c
+Linking C executable cmTC_a0f10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0f10.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a0f10.dir/CheckIncludeFile.c.o -o cmTC_a0f10 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-GDv1x0»
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Rb6DB5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0949/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0949.dir/build.make CMakeFiles/cmTC_f0949.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Rb6DB5»
+Building C object CMakeFiles/cmTC_f0949.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_f0949.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Rb6DB5/CheckIncludeFile.c
+Linking C executable cmTC_f0949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0949.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f0949.dir/CheckIncludeFile.c.o -o cmTC_f0949 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Rb6DB5»
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-KviRNa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73463/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73463.dir/build.make CMakeFiles/cmTC_73463.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-KviRNa»
+Building C object CMakeFiles/cmTC_73463.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_73463.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-KviRNa/CheckIncludeFile.c
+Linking C executable cmTC_73463
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73463.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_73463.dir/CheckIncludeFile.c.o -o cmTC_73463 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-KviRNa»
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-dvPQY1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af084/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af084.dir/build.make CMakeFiles/cmTC_af084.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-dvPQY1»
+Building C object CMakeFiles/cmTC_af084.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_af084.dir/CheckIncludeFile.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-dvPQY1/CheckIncludeFile.c
+Linking C executable cmTC_af084
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af084.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_af084.dir/CheckIncludeFile.c.o -o cmTC_af084 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-dvPQY1»
+
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CBIGbZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df842/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df842.dir/build.make CMakeFiles/cmTC_df842.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CBIGbZ»
+Building C object CMakeFiles/cmTC_df842.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_TIMESPEC  -fPIE -o CMakeFiles/cmTC_df842.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CBIGbZ/src.c
+Linking C executable cmTC_df842
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df842.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_df842.dir/src.c.o -o cmTC_df842 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-CBIGbZ»
+
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+  (void)sizeof(((struct timespec *)0)->tv_sec);
+  return 0;
+}
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Y0A3zK
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bcb44/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bcb44.dir/build.make CMakeFiles/cmTC_bcb44.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Y0A3zK»
+Building C object CMakeFiles/cmTC_bcb44.dir/UINTPTR_T.c.o
+/usr/bin/cc   -fPIE -o CMakeFiles/cmTC_bcb44.dir/UINTPTR_T.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Y0A3zK/UINTPTR_T.c
+Linking C executable cmTC_bcb44
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcb44.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bcb44.dir/UINTPTR_T.c.o -o cmTC_bcb44 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-Y0A3zK»
+
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jIRmzO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c99b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c99b.dir/build.make CMakeFiles/cmTC_1c99b.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jIRmzO»
+Building C object CMakeFiles/cmTC_1c99b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=calloc -fPIE -o CMakeFiles/cmTC_1c99b.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jIRmzO/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘calloc’; expected ‘void *(long unsigned int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jIRmzO/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jIRmzO/CheckFunctionExists.c:1:1: note: ‘calloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_1c99b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c99b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=calloc CMakeFiles/cmTC_1c99b.dir/CheckFunctionExists.c.o -o cmTC_1c99b 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-jIRmzO»
+
+
+
+Determining if the function exit exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2a6Ao7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ab5e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ab5e.dir/build.make CMakeFiles/cmTC_6ab5e.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2a6Ao7»
+Building C object CMakeFiles/cmTC_6ab5e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exit -fPIE -o CMakeFiles/cmTC_6ab5e.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2a6Ao7/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘exit’; expected ‘void(int)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2a6Ao7/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2a6Ao7/CheckFunctionExists.c:1:1: note: ‘exit’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_6ab5e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ab5e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=exit CMakeFiles/cmTC_6ab5e.dir/CheckFunctionExists.c.o -o cmTC_6ab5e 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-2a6Ao7»
+
+
+
+Determining if the function fprintf exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-BwRvZo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_34ae9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_34ae9.dir/build.make CMakeFiles/cmTC_34ae9.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-BwRvZo»
+Building C object CMakeFiles/cmTC_34ae9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fprintf -fPIE -o CMakeFiles/cmTC_34ae9.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-BwRvZo/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘fprintf’; expected ‘int(void *, const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-BwRvZo/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-BwRvZo/CheckFunctionExists.c:1:1: note: ‘fprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_34ae9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34ae9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fprintf CMakeFiles/cmTC_34ae9.dir/CheckFunctionExists.c.o -o cmTC_34ae9 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-BwRvZo»
+
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bj99PL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4876/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4876.dir/build.make CMakeFiles/cmTC_e4876.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bj99PL»
+Building C object CMakeFiles/cmTC_e4876.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=free -fPIE -o CMakeFiles/cmTC_e4876.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bj99PL/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘free’; expected ‘void(void *)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bj99PL/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bj99PL/CheckFunctionExists.c:1:1: note: ‘free’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_e4876
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4876.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=free CMakeFiles/cmTC_e4876.dir/CheckFunctionExists.c.o -o cmTC_e4876 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bj99PL»
+
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-d9jQR8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a031/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a031.dir/build.make CMakeFiles/cmTC_5a031.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-d9jQR8»
+Building C object CMakeFiles/cmTC_5a031.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=longjmp -fPIE -o CMakeFiles/cmTC_5a031.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-d9jQR8/CheckFunctionExists.c
+Linking C executable cmTC_5a031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a031.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=longjmp CMakeFiles/cmTC_5a031.dir/CheckFunctionExists.c.o -o cmTC_5a031 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-d9jQR8»
+
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tw9gTO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8fb6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f8fb6.dir/build.make CMakeFiles/cmTC_f8fb6.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tw9gTO»
+Building C object CMakeFiles/cmTC_f8fb6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=siglongjmp -fPIE -o CMakeFiles/cmTC_f8fb6.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tw9gTO/CheckFunctionExists.c
+Linking C executable cmTC_f8fb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8fb6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=siglongjmp CMakeFiles/cmTC_f8fb6.dir/CheckFunctionExists.c.o -o cmTC_f8fb6 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-tw9gTO»
+
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-zfFesd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e51b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e51b7.dir/build.make CMakeFiles/cmTC_e51b7.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-zfFesd»
+Building C object CMakeFiles/cmTC_e51b7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc -fPIE -o CMakeFiles/cmTC_e51b7.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-zfFesd/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-zfFesd/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-zfFesd/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_e51b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e51b7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_e51b7.dir/CheckFunctionExists.c.o -o cmTC_e51b7 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-zfFesd»
+
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pPz74U
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d552/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d552.dir/build.make CMakeFiles/cmTC_9d552.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pPz74U»
+Building C object CMakeFiles/cmTC_9d552.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memcpy -fPIE -o CMakeFiles/cmTC_9d552.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pPz74U/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memcpy’; expected ‘void *(void *, const void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pPz74U/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pPz74U/CheckFunctionExists.c:1:1: note: ‘memcpy’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_9d552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d552.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memcpy CMakeFiles/cmTC_9d552.dir/CheckFunctionExists.c.o -o cmTC_9d552 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-pPz74U»
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-1Zwqk9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc575/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc575.dir/build.make CMakeFiles/cmTC_bc575.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-1Zwqk9»
+Building C object CMakeFiles/cmTC_bc575.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset -fPIE -o CMakeFiles/cmTC_bc575.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-1Zwqk9/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘memset’; expected ‘void *(void *, int,  long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-1Zwqk9/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-1Zwqk9/CheckFunctionExists.c:1:1: note: ‘memset’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_bc575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc575.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=memset CMakeFiles/cmTC_bc575.dir/CheckFunctionExists.c.o -o cmTC_bc575 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-1Zwqk9»
+
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VonvcM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5af9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5af9e.dir/build.make CMakeFiles/cmTC_5af9e.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VonvcM»
+Building C object CMakeFiles/cmTC_5af9e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=printf -fPIE -o CMakeFiles/cmTC_5af9e.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VonvcM/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘printf’; expected ‘int(const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VonvcM/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VonvcM/CheckFunctionExists.c:1:1: note: ‘printf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_5af9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5af9e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=printf CMakeFiles/cmTC_5af9e.dir/CheckFunctionExists.c.o -o cmTC_5af9e 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-VonvcM»
+
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ezYCv3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f64d6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f64d6.dir/build.make CMakeFiles/cmTC_f64d6.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ezYCv3»
+Building C object CMakeFiles/cmTC_f64d6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setjmp -fPIE -o CMakeFiles/cmTC_f64d6.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ezYCv3/CheckFunctionExists.c
+Linking C executable cmTC_f64d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f64d6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setjmp CMakeFiles/cmTC_f64d6.dir/CheckFunctionExists.c.o -o cmTC_f64d6 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-ezYCv3»
+
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-18RSav
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fab5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8fab5.dir/build.make CMakeFiles/cmTC_8fab5.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-18RSav»
+Building C object CMakeFiles/cmTC_8fab5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=signal -fPIE -o CMakeFiles/cmTC_8fab5.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-18RSav/CheckFunctionExists.c
+Linking C executable cmTC_8fab5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fab5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=signal CMakeFiles/cmTC_8fab5.dir/CheckFunctionExists.c.o -o cmTC_8fab5 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-18RSav»
+
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-et86rg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99512/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99512.dir/build.make CMakeFiles/cmTC_99512.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-et86rg»
+Building C object CMakeFiles/cmTC_99512.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strsignal -fPIE -o CMakeFiles/cmTC_99512.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-et86rg/CheckFunctionExists.c
+Linking C executable cmTC_99512
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99512.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strsignal CMakeFiles/cmTC_99512.dir/CheckFunctionExists.c.o -o cmTC_99512 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-et86rg»
+
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-N83yvD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a302/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a302.dir/build.make CMakeFiles/cmTC_6a302.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-N83yvD»
+Building C object CMakeFiles/cmTC_6a302.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcmp -fPIE -o CMakeFiles/cmTC_6a302.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-N83yvD/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strcmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-N83yvD/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-N83yvD/CheckFunctionExists.c:1:1: note: ‘strcmp’ is declared in header ‘<string.h>’
+  +++ |+#include <string.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_6a302
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a302.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcmp CMakeFiles/cmTC_6a302.dir/CheckFunctionExists.c.o -o cmTC_6a302 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-N83yvD»
+
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kt7SSF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_283d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_283d4.dir/build.make CMakeFiles/cmTC_283d4.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kt7SSF»
+Building C object CMakeFiles/cmTC_283d4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE -o CMakeFiles/cmTC_283d4.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kt7SSF/CheckFunctionExists.c
+Linking C executable cmTC_283d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_283d4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_283d4.dir/CheckFunctionExists.c.o -o cmTC_283d4 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kt7SSF»
+
+
+
+Determining if the function sprintf exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-hcQip4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_787f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_787f7.dir/build.make CMakeFiles/cmTC_787f7.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-hcQip4»
+Building C object CMakeFiles/cmTC_787f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sprintf -fPIE -o CMakeFiles/cmTC_787f7.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-hcQip4/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sprintf’; expected ‘int(char *, const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-hcQip4/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-hcQip4/CheckFunctionExists.c:1:1: note: ‘sprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_787f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_787f7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sprintf CMakeFiles/cmTC_787f7.dir/CheckFunctionExists.c.o -o cmTC_787f7 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-hcQip4»
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-gq1cah
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70793/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70793.dir/build.make CMakeFiles/cmTC_70793.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-gq1cah»
+Building C object CMakeFiles/cmTC_70793.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vsnprintf -fPIE -o CMakeFiles/cmTC_70793.dir/CheckFunctionExists.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-gq1cah/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-gq1cah/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-gq1cah/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_70793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70793.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=vsnprintf CMakeFiles/cmTC_70793.dir/CheckFunctionExists.c.o -o cmTC_70793 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-gq1cah»
+
+
+
+Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bfLrJO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e1a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e1a4.dir/build.make CMakeFiles/cmTC_6e1a4.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bfLrJO»
+Building C object CMakeFiles/cmTC_6e1a4.dir/src.c.o
+/usr/bin/cc -DHAVE_GCC_THREAD_LOCAL_STORAGE  -fPIE -o CMakeFiles/cmTC_6e1a4.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bfLrJO/src.c
+Linking C executable cmTC_6e1a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e1a4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_6e1a4.dir/src.c.o -o cmTC_6e1a4 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-bfLrJO»
+
+
+Source file was:
+
+__thread int tls;
+
+int main(void) {
+    return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_CLOCK_REALTIME succeeded with the following output:
+Change Dir: /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kJ1aop
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8948f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8948f.dir/build.make CMakeFiles/cmTC_8948f.dir/build
+gmake[1]: вход в каталог «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kJ1aop»
+Building C object CMakeFiles/cmTC_8948f.dir/src.c.o
+/usr/bin/cc -DHAVE_CLOCK_REALTIME  -fPIE -o CMakeFiles/cmTC_8948f.dir/src.c.o -c /home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kJ1aop/src.c
+Linking C executable cmTC_8948f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8948f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8948f.dir/src.c.o -o cmTC_8948f  /usr/lib/x86_64-linux-gnu/librt.a 
+gmake[1]: выход из каталога «/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/CMakeFiles/CMakeScratch/TryCompile-kJ1aop»
+
+
+Source file was:
+
+#include <time.h>
+
+int main(void) {
+    struct timespec ts;
+
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    return 0;
+}
+

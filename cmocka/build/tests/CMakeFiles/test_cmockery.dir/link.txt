@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_cmockery.dir/test_cmockery.c.o -o test_cmockery  ../src/libcmocka-static.a 

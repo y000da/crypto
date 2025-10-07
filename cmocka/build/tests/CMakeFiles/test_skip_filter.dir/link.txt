@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_skip_filter.dir/test_skip_filter.c.o -o test_skip_filter  ../src/libcmocka-static.a 

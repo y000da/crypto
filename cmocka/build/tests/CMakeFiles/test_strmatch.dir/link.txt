@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_strmatch.dir/test_strmatch.c.o -o test_strmatch  ../src/libcmocka-static.a 

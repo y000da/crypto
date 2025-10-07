@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_exception_handler.dir/test_exception_handler.c.o -o test_exception_handler  ../src/libcmocka-static.a 

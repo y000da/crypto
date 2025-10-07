@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_float_macros.dir/test_float_macros.c.o -o test_float_macros  ../src/libcmocka-static.a 

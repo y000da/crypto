@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_fixtures.dir/test_fixtures.c.o -o test_fixtures  ../src/libcmocka-static.a 

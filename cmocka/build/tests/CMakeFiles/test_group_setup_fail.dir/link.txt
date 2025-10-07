@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_group_setup_fail.dir/test_group_setup_fail.c.o -o test_group_setup_fail  ../src/libcmocka-static.a 

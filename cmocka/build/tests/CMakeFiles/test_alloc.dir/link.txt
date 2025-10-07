@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_alloc.dir/test_alloc.c.o -o test_alloc  ../src/libcmocka-static.a 

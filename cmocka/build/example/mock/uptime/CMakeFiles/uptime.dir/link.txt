@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/uptime.dir/uptime.c.o -o uptime  -Wl,-rpath,/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/example/mock/uptime libproc_uptime.so 

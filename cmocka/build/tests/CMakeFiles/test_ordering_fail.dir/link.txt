@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_ordering_fail.dir/test_ordering_fail.c.o -o test_ordering_fail  ../src/libcmocka-static.a 

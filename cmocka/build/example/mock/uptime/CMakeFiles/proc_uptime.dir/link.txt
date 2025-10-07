@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libproc_uptime.so -o libproc_uptime.so CMakeFiles/proc_uptime.dir/proc_uptime.c.o 

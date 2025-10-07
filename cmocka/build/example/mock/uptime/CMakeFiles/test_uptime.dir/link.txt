@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--wrap=uptime CMakeFiles/test_uptime.dir/test_uptime.c.o -o test_uptime  -Wl,-rpath,/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/src ../../../src/libcmocka.so.0.8.1 

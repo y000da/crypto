@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/assert_module_test.dir/assert_module.c.o CMakeFiles/assert_module_test.dir/assert_module_test.c.o -o assert_module_test  -Wl,-rpath,/home/y000da/develop/RTTtest_task-UTF-8/cmocka/build/src ../src/libcmocka.so.0.8.1 

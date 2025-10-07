@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_basics.dir/test_basics.c.o -o test_basics  ../src/libcmocka-static.a 

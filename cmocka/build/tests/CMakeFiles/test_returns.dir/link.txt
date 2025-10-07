@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_returns.dir/test_returns.c.o -o test_returns  ../src/libcmocka-static.a 

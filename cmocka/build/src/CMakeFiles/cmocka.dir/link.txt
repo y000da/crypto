@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libcmocka.so.0 -o libcmocka.so.0.8.1 CMakeFiles/cmocka.dir/cmocka.c.o 

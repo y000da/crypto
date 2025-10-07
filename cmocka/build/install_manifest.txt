@@ -1,0 +1,10 @@
+/usr/lib/x86_64-linux-gnu/pkgconfig/cmocka.pc
+/usr/lib/x86_64-linux-gnu/cmake/cmocka/cmocka-config.cmake
+/usr/lib/x86_64-linux-gnu/cmake/cmocka/cmocka-config-version.cmake
+/usr/include/cmocka.h
+/usr/include/cmocka_pbc.h
+/usr/lib/x86_64-linux-gnu/libcmocka.so.0.8.1
+/usr/lib/x86_64-linux-gnu/libcmocka.so.0
+/usr/lib/x86_64-linux-gnu/libcmocka.so
+/usr/lib/x86_64-linux-gnu/cmake/cmocka/cmocka-targets.cmake
+/usr/lib/x86_64-linux-gnu/cmake/cmocka/cmocka-targets-debug.cmake

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_groups.dir/test_groups.c.o -o test_groups  ../src/libcmocka-static.a 

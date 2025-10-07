@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_assert_macros.dir/test_assert_macros.c.o -o test_assert_macros  ../src/libcmocka-static.a 

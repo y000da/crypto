@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/test_group_setup_assert.dir/test_group_setup_assert.c.o -o test_group_setup_assert  ../src/libcmocka-static.a 
