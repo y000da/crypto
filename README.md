@@ -15,7 +15,9 @@
 
 Проверьте установку зависимостей:
 `gcc --version`
+
 `make --version`
+
 `openssl version`
 ## Сборка проекта
 ### Стандартная сборка
@@ -56,7 +58,7 @@
 		3 -- Delete user data
 		4 -- Help
 		5 -- Exit
-	\> 1
+	> 1
 	login: login
 	password: 
 	Type in desired key length:
